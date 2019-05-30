@@ -18,5 +18,6 @@ def move(board, pos, token = "X")
   if pos != -1 && board[pos] == " "
     board[pos] = token
   else
-    
+    puts "Sorry, that space is taken."
+  end
 end
