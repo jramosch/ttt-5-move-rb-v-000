@@ -15,7 +15,7 @@ def input_to_index(input)
 end
 
 def move(board, pos, token = "X")
-  if board[pos] == " "
+  if board[pos] == " " && 
     board[pos] = token
   else
     
