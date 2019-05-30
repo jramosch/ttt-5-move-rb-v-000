@@ -15,5 +15,5 @@ def input_to_index(input)
 end
 
 def move(board, pos, token = "X")
-  
+  if board[pos]
 end
